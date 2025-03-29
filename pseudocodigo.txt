@@ -1,0 +1,22 @@
+INICIO PrepararCafe
+  // Verificar materiais necessários
+  SE (xícara_disponivel == false) ENTÃO
+    LAVAR xícara
+  FIM SE
+  
+  SE (água_quente == false) ENTÃO
+    FERVER água
+  FIM SE
+  
+  // Preparar o café
+  COLOCAR pó de café no filtro
+  COLOCAR filtro na xícara
+  DESPEJAR água quente no filtro
+  ESPERAR 1 minuto
+  REMOVER filtro
+  
+  // Finalizar
+  ADICIONAR açúcar (opcional)
+  MEXER o café
+  SERVIR
+FIM

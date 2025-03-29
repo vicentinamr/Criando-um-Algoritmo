@@ -1,0 +1,34 @@
+[INÍCIO]
+  |
+  v
+[Lavar xícara?] --> (Não está disponível?) --> [Lavar xícara]
+  |
+  v
+[Ferver água?] --> (Água não está quente?) --> [Ferver água]
+  |
+  v
+[Colocar pó de café no filtro]
+  |
+  v
+[Posicionar filtro na xícara]
+  |
+  v
+[Despejar água quente no filtro]
+  |
+  v
+[Esperar 1 minuto]
+  |
+  v
+[Remover filtro]
+  |
+  v
+[Adicionar açúcar?] --> (Sim) --> [Colocar açúcar]
+  |                       |
+  v                       v
+[Mexer o café] <----------
+  |
+  v
+[Servir café]
+  |
+  v
+[FIM]
